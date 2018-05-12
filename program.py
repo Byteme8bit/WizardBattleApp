@@ -1,3 +1,5 @@
+from actors import Wizard, Creature
+
 __author__ = "byteme8bit"
 
 
@@ -15,6 +17,19 @@ def print_header():
 
 
 def game_loop():
+
+    creatures = [
+        Creature(),
+        Creature(),
+        Creature(),
+        Creature(),
+        Creature(),
+    ]
+
+    hero = Wizard()
+
+
+
     while True:
 
         cmd = input('Do you [a]ttack, [r]un away, or [l]ook around? ')
