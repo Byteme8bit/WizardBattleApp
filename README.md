@@ -14,12 +14,12 @@ This is a short game written following a tutorial to learn and practice Object O
 1. Code that defines main game:
 
 ```
+__author__ = "byteme8bit"
+from actors import Wizard, Creature, SmallAnimal, Dragon
 import random
 import time
 
-from actors import Wizard, Creature, SmallAnimal, Dragon
 
-__author__ = "byteme8bit"
 
 
 def main():
