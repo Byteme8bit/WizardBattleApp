@@ -13,7 +13,8 @@ This is a short game written following a tutorial to learn and practice Object O
 
 1. Code that defines main game:
 
-```import random
+```
+import random
 import time
 
 from actors import Wizard, Creature, SmallAnimal, Dragon
