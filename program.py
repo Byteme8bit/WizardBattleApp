@@ -1,7 +1,7 @@
 import random
 import time
 
-from actors import Wizard, Creature
+from actors import Wizard, Creature, SmallAnimal, Dragon
 
 __author__ = "byteme8bit"
 
@@ -21,11 +21,11 @@ def print_header():
 
 def game_loop():
     creatures = [
-        # SmallAnimal('Toad', 1),
+        SmallAnimal('Toad', 1),
         Creature('Tiger', 12),
-        # SmallAnimal('Bat', 3),
-        # Dragon('Dragon', 50, scaliness=20),
-        Wizard('Evil Wizard', 1000, ),
+        SmallAnimal('Bat', 3),
+        Dragon('Dragon', 50, 75, True),
+        Wizard('Evil Wizard', 1000)
     ]
 
     hero = Wizard('Gandolf', 75)
@@ -55,7 +55,6 @@ def game_loop():
         else:
             print('Ok, exiting game...')
             break
-
 
         if not creatures:
             print("You've defeated all the creatures, well done!")
