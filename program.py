@@ -1,9 +1,9 @@
+__author__ = "byteme8bit"
+from actors import Wizard, Creature, SmallAnimal, Dragon
 import random
 import time
 
-from actors import Wizard, Creature, SmallAnimal, Dragon
 
-__author__ = "byteme8bit"
 
 
 def main():
